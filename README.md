@@ -25,8 +25,7 @@ The application uses nested `if` statements to validate user input and categoriz
 ## 3. Application Demo
 Below is a demonstration of the Social Spark app in action.
 
-![App Interface]
-Screenshot 2026-03-30 193424.png
+![App Interface](Screenshot 2026-03-30 193424.png)
  The main interface of the Social Spark application.*
 
 ### Walkthrough Video
@@ -46,8 +45,7 @@ To ensure a "robust and maintainable application," I implemented **GitHub Action
 * **Purpose:** Every time code is pushed to the repository, an automated build script runs.
 * **Benefit:** This checks for compilation errors and ensures that the app is always in a "build-ready" state, preventing broken code from staying in the main branch.
 
-![Github Actions}
-Screenshot 2026-03-30 193219.png
+![Github Actions](Screenshot 2026-03-30 193219.png)
  build status by GitHub Actions
 
 ---
