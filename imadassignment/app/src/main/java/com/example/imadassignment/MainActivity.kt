@@ -11,6 +11,8 @@ import androidx.core.view.WindowInsetsCompat
 
 class MainActivity : AppCompatActivity() {
 
+    //Declaration of variables
+
     private lateinit var edtDay: EditText
     private lateinit var btnReset: Button
     private lateinit var btnSuggestion: Button
@@ -21,10 +23,14 @@ class MainActivity : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
 
+        //Typecasting
+
         edtDay = findViewById(R.id.edtDay)
         btnReset = findViewById(R.id.btnReset)
         btnSuggestion = findViewById(R.id.btnSuggestion)
         tvResults = findViewById(R.id.tvResults)
+
+        //Coding the suggestion button
 
         btnSuggestion.setOnClickListener {
 
@@ -75,7 +81,7 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
-        // btnReset button logic
+        //Reset button
         btnReset.setOnClickListener {
             edtDay.text.clear()
             tvResults.text = ""
