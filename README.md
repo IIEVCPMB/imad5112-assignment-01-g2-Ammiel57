@@ -26,7 +26,8 @@ The application uses nested `if` statements to validate user input and categoriz
 Below is a demonstration of the Social Spark app in action.
 
 ![App Interface](app_ui.png)
- The main interface of the Social Spark application.*
+
+The main interface of the Social Spark application.
 
 ### Walkthrough Video
 You can watch the full voice-over demonstration of the app's functionality here:
